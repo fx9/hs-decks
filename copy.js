@@ -39,3 +39,4 @@ function load_decks(){
 }
 
 load_decks();
+$('#select_deck').change();
