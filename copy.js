@@ -15,6 +15,8 @@ $('#button_copy').click(function(){
   el.contentEditable = editable;
   el.readOnly = readOnly;
   document.execCommand('copy');
+  $input.select();
+  document.execCommand('copy');
   $input.blur();
 })
 
