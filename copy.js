@@ -49,5 +49,8 @@ function mobilecheck() {
   return check;
 };
 
-alert(mobilecheck());
-alert(navigator.userAgent.match(/iPhone/i));
+if (mobilecheck()){
+  $(".text").addClass("mobile-text");
+} else {
+  $(".text").addClass("normal-text");
+}

@@ -1,44 +1,23 @@
-.fullwidth{
-    width: 100%;
-}
-
-.panel {
-    border: 2px solid #C0C0C0;
-    margin: 2px;
-    padding: 8px;
-    box-shadow: inset 0 1px 2px #e4e4e4;
-    min-height: 200px;
-}
-
-.text {
+.mobile-text {
     width: 100%;
     min-height: 150px;
-    line-height: 36px;
+    height: 150px;
+    line-height: 44px;
+    font-size: 44px;
+}
+
+.normal-text {
+    width: 500px;
+    min-height: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.text{
     font-family: "Monaco", "Andale Mono", "Lucida Console", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
-    font-size: 36px;
 }
 
-.inline {
-    display: inline-block;
-    vertical-align: top;
-    font-size: 14px;
+div{
+    margin: 10px;
 }
 
-.input-div input{
-    width: 30px;
- }
-
-label, div, select {
-    font-family: "Arial", "Open Sans", "Helvetica", "FreeSans", "Verdana", "Tahoma", "Lucida Sans", "Lucida Sans Unicode", "Luxi Sans", sans-serif;
-    font-size: 14px;
-}
-
-label, input, select {
-    display: inline-block;
-
-}
-
-
-.input-div input{
-    width: 30px;
- }

@@ -14,10 +14,10 @@ with open("decks.txt") as fd:
 			deck_content.append((deckname,line))
 			deckname = "<>"
 
-deck_content = sorted(deck_content)
+#deck_content = sorted(deck_content)
 output = []
 for deckname, line in deck_content:
-	output.append({"name":deckname, "code":line})
+	output.append({"name":deckname, "code":"### {0}\n{1}".format(deckname[1:-1],line)})
 
 with open("data.js",'w') as fd:
 	fd.write("decks=")
